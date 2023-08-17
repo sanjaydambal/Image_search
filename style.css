@@ -97,5 +97,17 @@ form{
     display: block;
   
 }
+@media screen and (max-width:768px){
+    .search-results{
+        padding: 20px;
+    }
+    .result{
+width: 45%;
+    }
+}
 
-  
+ @media screen and (max-width:480px) {
+    .result{
+width: 100%;
+    }
+ } 

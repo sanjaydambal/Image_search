@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   
     function fetchImages(query) {
-      const apiKey = "YOUR_UNSPLASH_API_KEY"; // Replace with your Unsplash API key
+      const apiKey = "GYk6WjyMPwLYhy4F4gFpRqlduz_1UTHgriv4TECufeE"; // Replace with your Unsplash API key
       const apiUrl = `https://api.unsplash.com/search/photos?query=${query}&client_id=${apiKey}`;
   
       fetch(apiUrl)
